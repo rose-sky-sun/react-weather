@@ -1,3 +1,5 @@
+import React from 'react';
+import Weather from './Weather';
 import logo from './logo.svg';
 import './App.css';
 
@@ -9,6 +11,9 @@ export default function App() {
           Weather <img src={logo} className="App-logo" alt="logo" /> Forecast
         </h1>
       </header>
+      <main>
+          <Weather />
+      </main>
       <footer>
         <p>
           This project is coded with 🩷 by <a href='https://github.com/rose-sky-sun'> LunaFreya Dragonborn</a> is 
