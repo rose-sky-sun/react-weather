@@ -9,6 +9,12 @@ export default function App() {
           Weather <img src={logo} className="App-logo" alt="logo" /> Forecast
         </h1>
       </header>
+      <footer>
+        <p>
+          This project is coded with 🩷 by <a href='https://github.com/rose-sky-sun'> LunaFreya Dragonborn</a> is 
+          <a href='https://github.com/rose-sky-sun/react-weather'> open-sourced on GitHub</a> and <a href='https://reactweatherforecastapp.netlify.app'> hosted on Netlify.</a>
+          </p>
+      </footer>
     </div>
   );
 }
