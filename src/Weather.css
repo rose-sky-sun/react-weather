@@ -1,10 +1,18 @@
 .Weather {
-    border: 1px solid rgb(213, 214, 214);
+    border: 1px solid rgb(174, 215, 219);
     text-align: left;
     padding: 16px;
     margin: 0 auto;
     border-radius: 4px;
     color: rgb(117, 119, 121);
+    background-color: #F0F8FF;
+}
+
+.Weather .btn {
+    background-color: #0AABC0;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
 }
 
 .Weather h1 {
@@ -31,7 +39,6 @@
     position: relative;
     bottom: 15px;
     width: 60px;
-    
 }
 
 .Weather .temperature {
