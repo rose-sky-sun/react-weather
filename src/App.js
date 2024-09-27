@@ -12,7 +12,7 @@ export default function App() {
         </h1>
       </header>
       <main>
-          <Weather />
+          <Weather defaultCity="New York"/>
       </main>
       <footer>
         <p>
