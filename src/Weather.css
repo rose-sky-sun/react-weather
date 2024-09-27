@@ -34,11 +34,9 @@
     line-height: 19px;
 }
 
-.Weather img {
-    height: 60px;
+.Weather .animatedIcon {
     position: relative;
-    bottom: 15px;
-    width: 60px;
+    top: 15px;
 }
 
 .Weather .temperature {
@@ -46,13 +44,14 @@
     font-size: 60px;
     color: rgb(49, 48, 48);
     position: relative;
-    right: 10px;
+    left: 55px;
+    bottom: 65px;
+
 }
 
 .Weather .unit {
     font-weight: 500;
     position: relative;
-    bottom: 30px;
-    right: 28px;
-    font-size: 16px;
+    bottom: 95px;
+    left: 40px;
 }
